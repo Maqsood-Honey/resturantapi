@@ -6,6 +6,8 @@ import './style.css'
 const uniqueList = [...new Set(Menu.map((curElem) => {
     return curElem.category;
 })), "All"]
+
+console.log(uniqueList)
 const Resturant = () => {
 
     const [menuData, setMenuData] = useState(Menu);
